@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="https://www.aluracursos.com/">
+            <img class="header__side__logo" src="./assets/img/Logo.png" alt="Logo de Alura">
+        </a>
+    </header>
+    <main>
+        <section class="encrypt__side">
+            <textarea class="encript__side__text" placeholder="Ingrese su texto aqui"></textarea>
+            <div class="encript__side__aviso">
+                <img src="./assets/img/warning.png" alt="warning icon" class="encript__side__aviso__icon">
+                <p class="encript__side__aviso__message">Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="encrypt__side__command">
+                <button class="encrypt__side__command__encripta" type="submit">Encriptar</button>
+                <button class="encrypt__side__command__desencripta" type="submit">Desencriptar</button>
+            </div>
+        </section>
+        <section class="card__side">
+            <div class="card__side__container">
+                <img class="card__side__container__imagen" src="./assets/img/Muñeco.png" alt="Imagen de muñeco">
+                <p class="card__side__container__noMessage">Ningún mensaje fue encontado</p>
+                <p class="card__side__container__indication">Ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+            <textarea class="card__side__evaluation" type="mensaje" readonly></textarea>
+            <button class="card__side__copy" type="submit">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer__side__copyright">&copy; copyright 2024 - Encriptador de texto - Desarrollado por CassDev </p>
+        <a href="https://www.linkedin.com/in/casseli-layza/" target="_blank" rel="noopener noreferrer">
+            <img class="footer__side__linkedin" src="./assets/img/linkedin.svg" alt="Logo de Linkedin">
+        </a>
+        <a href="https://github.com/CasseliLayza" target="_blank" rel="noopener noreferrer">
+            <img class="footer__side__github" src="./assets/img/github.svg" alt="Logo de Github">
+        </a>
+    </footer>
+    <script src="./js/encriptador.js"></script>
+</body>
+
+</html>
